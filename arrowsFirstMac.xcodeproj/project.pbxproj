@@ -15,6 +15,8 @@
 		BCA4254225285A8F0000CD6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA4254025285A8F0000CD6A /* Main.storyboard */; };
 		BCA4254E25285A8F0000CD6A /* arrowsFirstMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4254D25285A8F0000CD6A /* arrowsFirstMacTests.swift */; };
 		BCA4255925285A8F0000CD6A /* arrowsFirstMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4255825285A8F0000CD6A /* arrowsFirstMacUITests.swift */; };
+		BCBDBE2C252A25950014CABE /* Member+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDBE2A252A25950014CABE /* Member+CoreDataClass.swift */; };
+		BCBDBE2D252A25950014CABE /* Member+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDBE2B252A25950014CABE /* Member+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		BCA4255425285A8F0000CD6A /* arrowsFirstMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arrowsFirstMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA4255825285A8F0000CD6A /* arrowsFirstMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrowsFirstMacUITests.swift; sourceTree = "<group>"; };
 		BCA4255A25285A8F0000CD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCBDBE2A252A25950014CABE /* Member+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Member+CoreDataClass.swift"; path = "arrowsFirstMac/Member+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BCBDBE2B252A25950014CABE /* Member+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Member+CoreDataProperties.swift"; path = "arrowsFirstMac/Member+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		BCA4252825285A8E0000CD6A = {
 			isa = PBXGroup;
 			children = (
+				BCBDBE2A252A25950014CABE /* Member+CoreDataClass.swift */,
+				BCBDBE2B252A25950014CABE /* Member+CoreDataProperties.swift */,
 				BCA4253325285A8E0000CD6A /* arrowsFirstMac */,
 				BCA4254C25285A8F0000CD6A /* arrowsFirstMacTests */,
 				BCA4255725285A8F0000CD6A /* arrowsFirstMacUITests */,
@@ -270,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCA4253A25285A8E0000CD6A /* arrowsFirstMac.xcdatamodeld in Sources */,
+				BCBDBE2C252A25950014CABE /* Member+CoreDataClass.swift in Sources */,
 				BCA4253725285A8E0000CD6A /* ContentView.swift in Sources */,
 				BCA4253525285A8E0000CD6A /* AppDelegate.swift in Sources */,
+				BCBDBE2D252A25950014CABE /* Member+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
